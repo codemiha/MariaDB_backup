@@ -15,7 +15,7 @@
 # This script performs full and incremental backups for a Galera Cluster.
 
 # Email configuration
-Sender="Galera1@customer.net"  # Note: double quotes are required
+Sender=""Galera1@customer.net""  # Note: double quotes are required
 Alarm_Subject="ABC XYZ Backup Failed!"
 Alarm_Recipient="some@email.net"
 EmailBody=$(echo -e "The automated backup has failed. \nPlease check:\n- /backup/$(hostname -s)/backup.log\n- /backup/$(hostname -s)/debug_backup.log")
