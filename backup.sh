@@ -1,5 +1,5 @@
 #!/bin/sh
-# Version 1.6 - Dec 19, 2024 - by Miha
+# Version 1.6 - Dec 19, 2024 - by miha
 #
 # Instructions:
 # - Set the following variables: MYSQL_PASSWORD, BACKDIR, and THREADS.
